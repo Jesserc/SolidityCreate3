@@ -1,0 +1,641 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "bytes32",
+              "name": "salt",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            }
+          ],
+          "internalType": "struct ChildContract.ContractDetails",
+          "name": "CD",
+          "type": "tuple"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "_salt",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "payable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "contracts",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "salt",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "salt",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405260405161021138038061021183398101604081905261002291610091565b600080805260016020908152604080518082019091527fa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb495481527fa6eef7e35abe7026729641147f7915573c7e97b47efa546f5f6e3230263bcb4a546001600160a01b0316910152555061011a565b60008082840360608112156100a557600080fd5b60408112156100b357600080fd5b50604080519081016001600160401b03811182821017156100e457634e487b7160e01b600052604160045260246000fd5b6040528351815260208401516001600160a01b038116811461010557600080fd5b60208201526040939093015192949293505050565b60e9806101286000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c8063474da79a146037578063bfa0b133146086575b600080fd5b60646042366004609b565b600160208190526000918252604090912080549101546001600160a01b031682565b604080519283526001600160a01b039091166020830152015b60405180910390f35b608e60005481565b604051908152602001607d565b60006020828403121560ac57600080fd5b503591905056fea26469706673582212204374730d1965c35a9ef5451b77ecf4080dc1f707d751826e36ca557b113ddfb564736f6c634300080f0033",
+    "sourceMap": "57:344:0:-:0;;;280:119;;;;;;;;;;;;;;;;;;:::i;:::-;357:13;;;;:9;:13;;;;;352:18;;;;;;;;357:13;352:18;;;;;-1:-1:-1;;;;;352:18:0;;;;380:12;-1:-1:-1;57:344:0;;14:841:3;123:6;131;175:9;166:7;162:23;205:2;201;197:11;194:31;;;221:1;218;211:12;194:31;245:4;241:2;237:13;234:33;;;263:1;260;253:12;234:33;-1:-1:-1;296:4:3;290:11;;;328:17;;-1:-1:-1;;;;;360:34:3;;396:22;;;357:62;354:185;;;461:10;456:3;452:20;449:1;442:31;496:4;493:1;486:15;524:4;521:1;514:15;354:185;555:4;548:24;596:16;;581:32;;656:2;641:18;;635:25;-1:-1:-1;;;;;689:31:3;;679:42;;669:70;;735:1;732;725:12;669:70;767:2;755:15;;748:30;843:4;828:20;;;;822:27;759:6;;822:27;;-1:-1:-1;;;14:841:3:o;:::-;57:344:0;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c8063474da79a146037578063bfa0b133146086575b600080fd5b60646042366004609b565b600160208190526000918252604090912080549101546001600160a01b031682565b604080519283526001600160a01b039091166020830152015b60405180910390f35b608e60005481565b604051908152602001607d565b60006020828403121560ac57600080fd5b503591905056fea26469706673582212204374730d1965c35a9ef5451b77ecf4080dc1f707d751826e36ca557b113ddfb564736f6c634300080f0033",
+    "sourceMap": "57:344:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;192:52;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;-1:-1:-1;;;;;192:52:0;;;;;;;373:25:3;;;-1:-1:-1;;;;;434:32:3;;;429:2;414:18;;407:60;346:18;192:52:0;;;;;;;;166:19;;;;;;;;;624:25:3;;;612:2;597:18;166:19:0;478:177:3;14:180;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:3;;14:180;-1:-1:-1;14:180:3:o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "contracts(uint256)": "474da79a",
+    "salt()": "bfa0b133"
+  },
+  "rawMetadata": "{\"compiler\":{\"version\":\"0.8.15+commit.e14f2714\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"components\":[{\"internalType\":\"bytes32\",\"name\":\"salt\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"internalType\":\"struct ChildContract.ContractDetails\",\"name\":\"CD\",\"type\":\"tuple\"},{\"internalType\":\"bytes32\",\"name\":\"_salt\",\"type\":\"bytes32\"}],\"stateMutability\":\"payable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"contracts\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"salt\",\"type\":\"bytes32\"},{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"salt\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/ChildContract.sol\":\"ChildContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":eth-gas-reporter/=node_modules/eth-gas-reporter/\",\":hardhat/=node_modules/hardhat/\"]},\"sources\":{\"contracts/ChildContract.sol\":{\"keccak256\":\"0x001824184f5b0af7b830b551441d1a3e110eeba354648969f64fdccf56f8a09b\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://cd158330c3212e952315c98fd49f73e40c5ad34d580b1368db4d3b980564e1a8\",\"dweb:/ipfs/Qmf5pt49s2zDq2akw9M1Y1x3WV6xtnW4bkwPPDxn9Wavu5\"]}},\"version\":1}",
+  "metadata": {
+    "compiler": {
+      "version": "0.8.15+commit.e14f2714"
+    },
+    "language": "Solidity",
+    "output": {
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "struct ChildContract.ContractDetails",
+              "name": "CD",
+              "type": "tuple",
+              "components": [
+                {
+                  "internalType": "bytes32",
+                  "name": "salt",
+                  "type": "bytes32"
+                },
+                {
+                  "internalType": "address",
+                  "name": "owner",
+                  "type": "address"
+                }
+              ]
+            },
+            {
+              "internalType": "bytes32",
+              "name": "_salt",
+              "type": "bytes32"
+            }
+          ],
+          "stateMutability": "payable",
+          "type": "constructor"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "contracts",
+          "outputs": [
+            {
+              "internalType": "bytes32",
+              "name": "salt",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "address",
+              "name": "owner",
+              "type": "address"
+            }
+          ]
+        },
+        {
+          "inputs": [],
+          "stateMutability": "view",
+          "type": "function",
+          "name": "salt",
+          "outputs": [
+            {
+              "internalType": "bytes32",
+              "name": "",
+              "type": "bytes32"
+            }
+          ]
+        }
+      ],
+      "devdoc": {
+        "kind": "dev",
+        "methods": {},
+        "version": 1
+      },
+      "userdoc": {
+        "kind": "user",
+        "methods": {},
+        "version": 1
+      }
+    },
+    "settings": {
+      "remappings": [
+        ":eth-gas-reporter/=node_modules/eth-gas-reporter/",
+        ":hardhat/=node_modules/hardhat/"
+      ],
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "metadata": {
+        "bytecodeHash": "ipfs"
+      },
+      "compilationTarget": {
+        "contracts/ChildContract.sol": "ChildContract"
+      },
+      "libraries": {}
+    },
+    "sources": {
+      "contracts/ChildContract.sol": {
+        "keccak256": "0x001824184f5b0af7b830b551441d1a3e110eeba354648969f64fdccf56f8a09b",
+        "urls": [
+          "bzz-raw://cd158330c3212e952315c98fd49f73e40c5ad34d580b1368db4d3b980564e1a8",
+          "dweb:/ipfs/Qmf5pt49s2zDq2akw9M1Y1x3WV6xtnW4bkwPPDxn9Wavu5"
+        ],
+        "license": "MIT"
+      }
+    },
+    "version": 1
+  },
+  "ast": {
+    "absolutePath": "contracts/ChildContract.sol",
+    "id": 37,
+    "exportedSymbols": {
+      "ChildContract": [
+        36
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "32:370:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "32:23:0",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 36,
+        "nodeType": "ContractDefinition",
+        "src": "57:344:0",
+        "nodes": [
+          {
+            "id": 6,
+            "nodeType": "StructDefinition",
+            "src": "86:75:0",
+            "canonicalName": "ChildContract.ContractDetails",
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "mutability": "mutable",
+                "name": "salt",
+                "nameLocation": "127:4:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "119:12:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "119:7:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "mutability": "mutable",
+                "name": "owner",
+                "nameLocation": "149:5:0",
+                "nodeType": "VariableDeclaration",
+                "scope": 6,
+                "src": "141:13:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_address",
+                  "typeString": "address"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "address",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "141:7:0",
+                  "stateMutability": "nonpayable",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "ContractDetails",
+            "nameLocation": "93:15:0",
+            "scope": 36,
+            "visibility": "public"
+          },
+          {
+            "id": 8,
+            "nodeType": "VariableDeclaration",
+            "src": "166:19:0",
+            "constant": false,
+            "functionSelector": "bfa0b133",
+            "mutability": "mutable",
+            "name": "salt",
+            "nameLocation": "181:4:0",
+            "scope": 36,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bytes32",
+              "typeString": "bytes32"
+            },
+            "typeName": {
+              "id": 7,
+              "name": "bytes32",
+              "nodeType": "ElementaryTypeName",
+              "src": "166:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bytes32",
+                "typeString": "bytes32"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 13,
+            "nodeType": "VariableDeclaration",
+            "src": "192:52:0",
+            "constant": false,
+            "functionSelector": "474da79a",
+            "mutability": "mutable",
+            "name": "contracts",
+            "nameLocation": "235:9:0",
+            "scope": 36,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_ContractDetails_$6_storage_$",
+              "typeString": "mapping(uint256 => struct ChildContract.ContractDetails)"
+            },
+            "typeName": {
+              "id": 12,
+              "keyType": {
+                "id": 9,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "200:7:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "192:35:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_ContractDetails_$6_storage_$",
+                "typeString": "mapping(uint256 => struct ChildContract.ContractDetails)"
+              },
+              "valueType": {
+                "id": 11,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 10,
+                  "name": "ContractDetails",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 6,
+                  "src": "211:15:0"
+                },
+                "referencedDeclaration": 6,
+                "src": "211:15:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_ContractDetails_$6_storage_ptr",
+                  "typeString": "struct ChildContract.ContractDetails"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "id": 16,
+            "nodeType": "VariableDeclaration",
+            "src": "250:23:0",
+            "constant": true,
+            "mutability": "constant",
+            "name": "id",
+            "nameLocation": "267:2:0",
+            "scope": 36,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 14,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "250:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": {
+              "hexValue": "30",
+              "id": 15,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "kind": "number",
+              "lValueRequested": false,
+              "nodeType": "Literal",
+              "src": "272:1:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_rational_0_by_1",
+                "typeString": "int_const 0"
+              },
+              "value": "0"
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 35,
+            "nodeType": "FunctionDefinition",
+            "src": "280:119:0",
+            "body": {
+              "id": 34,
+              "nodeType": "Block",
+              "src": "342:57:0",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 28,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 24,
+                      "name": "CD",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 19,
+                      "src": "352:2:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_ContractDetails_$6_memory_ptr",
+                        "typeString": "struct ChildContract.ContractDetails memory"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "baseExpression": {
+                        "id": 25,
+                        "name": "contracts",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 13,
+                        "src": "357:9:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_ContractDetails_$6_storage_$",
+                          "typeString": "mapping(uint256 => struct ChildContract.ContractDetails storage ref)"
+                        }
+                      },
+                      "id": 27,
+                      "indexExpression": {
+                        "id": 26,
+                        "name": "id",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 16,
+                        "src": "367:2:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "IndexAccess",
+                      "src": "357:13:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_ContractDetails_$6_storage",
+                        "typeString": "struct ChildContract.ContractDetails storage ref"
+                      }
+                    },
+                    "src": "352:18:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_ContractDetails_$6_memory_ptr",
+                      "typeString": "struct ChildContract.ContractDetails memory"
+                    }
+                  },
+                  "id": 29,
+                  "nodeType": "ExpressionStatement",
+                  "src": "352:18:0"
+                },
+                {
+                  "expression": {
+                    "id": 32,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 30,
+                      "name": "salt",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 8,
+                      "src": "380:4:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 31,
+                      "name": "_salt",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 21,
+                      "src": "387:5:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bytes32",
+                        "typeString": "bytes32"
+                      }
+                    },
+                    "src": "380:12:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "id": 33,
+                  "nodeType": "ExpressionStatement",
+                  "src": "380:12:0"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 22,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 19,
+                  "mutability": "mutable",
+                  "name": "CD",
+                  "nameLocation": "315:2:0",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 35,
+                  "src": "292:25:0",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_ContractDetails_$6_memory_ptr",
+                    "typeString": "struct ChildContract.ContractDetails"
+                  },
+                  "typeName": {
+                    "id": 18,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 17,
+                      "name": "ContractDetails",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 6,
+                      "src": "292:15:0"
+                    },
+                    "referencedDeclaration": 6,
+                    "src": "292:15:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_ContractDetails_$6_storage_ptr",
+                      "typeString": "struct ChildContract.ContractDetails"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 21,
+                  "mutability": "mutable",
+                  "name": "_salt",
+                  "nameLocation": "327:5:0",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 35,
+                  "src": "319:13:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  },
+                  "typeName": {
+                    "id": 20,
+                    "name": "bytes32",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "319:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bytes32",
+                      "typeString": "bytes32"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "291:42:0"
+            },
+            "returnParameters": {
+              "id": 23,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "342:0:0"
+            },
+            "scope": 36,
+            "stateMutability": "payable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "ChildContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          36
+        ],
+        "name": "ChildContract",
+        "nameLocation": "66:13:0",
+        "scope": 37,
+        "usedErrors": []
+      }
+    ],
+    "license": "MIT"
+  },
+  "id": 0
+}
